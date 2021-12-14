@@ -1,0 +1,15 @@
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/bin/Debug/net5.0/Homeworks.deps.json
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/bin/Debug/net5.0/Homeworks.runtimeconfig.json
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/bin/Debug/net5.0/Homeworks.runtimeconfig.dev.json
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/bin/Debug/net5.0/Homeworks.dll
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/bin/Debug/net5.0/ref/Homeworks.dll
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/bin/Debug/net5.0/Homeworks.pdb
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/obj/Debug/net5.0/Homeworks.csproj.AssemblyReference.cache
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/obj/Debug/net5.0/Homeworks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/obj/Debug/net5.0/Homeworks.AssemblyInfoInputs.cache
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/obj/Debug/net5.0/Homeworks.AssemblyInfo.cs
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/obj/Debug/net5.0/Homeworks.csproj.CoreCompileInputs.cache
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/obj/Debug/net5.0/Homeworks.dll
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/obj/Debug/net5.0/ref/Homeworks.dll
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/obj/Debug/net5.0/Homeworks.pdb
+/Users/nikolaj/GITHOMEWORK/Homeworks/Homeworks/obj/Debug/net5.0/Homeworks.genruntimeconfig.cache
