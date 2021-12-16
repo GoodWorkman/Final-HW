@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Anton Manakov
+using System;
 
 namespace _1
 {

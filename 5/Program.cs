@@ -1,4 +1,5 @@
 ﻿#region
+//Anton Manakov
 /*4.Реализовать метод проверки логина и пароля. На вход метода подается логин и пароль. 
  * На выходе истина, если прошел авторизацию, и ложь, если не прошел (Логин: root, Password: GeekBrains). 
  * Используя метод проверки логина и пароля, написать программу: пользователь вводит логин и пароль, 
@@ -17,32 +18,45 @@ namespace _5
             string login;
             string password;
             int count = 0;
+            int maxTryes = 3;
+
+
 
             do
             {
                 Console.WriteLine("\nВведите логин:");
                 login = Console.ReadLine();
 
-
-                if (login == "root")
+                #region
+                /*if (login == "root")
                     Console.WriteLine("Логин успешно авторизован");
                 else
-                    Console.WriteLine("Логин некорректный");
+                    Console.WriteLine("Логин некорректный");*/
+                #endregion
 
                 Console.WriteLine("\nВведите пароль");
                 password = Console.ReadLine();
 
-                if (password == "GeekBrains")
+                #region
+                /*if (password == "GeekBrains")
                     Console.WriteLine("Доступ разрешен");
                 
                 else
-                    Console.WriteLine("В доступе отказано");
+                    Console.WriteLine("В доступе отказано");*/
+                #endregion
                 count++;
 
-                Console.WriteLine($"Вы ввели {count} раза из трех");
-            }
-            while (count < 3);
+                if (login == "root" && password == "GeekBrains")
+                {
+                    Console.WriteLine("Authorization Success");
+                    return;
 
+                }
+
+                Console.WriteLine($"вам осталось {maxTryes - count} раза из трех");
+            }
+            while (count < maxTryes);
+            Console.WriteLine("Authorization denied");
             Console.ReadLine();
         }
     }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Anton Manakov
+
+using System;
 
 namespace _2
 {
@@ -15,8 +17,10 @@ namespace _2
             Console.WriteLine("Введите ваш возраст (полных лет): ");
             int age = int.Parse(Console.ReadLine());
 
-            float IMT = (float)ves / (rost * rost);                
+            float IMT = (float)ves / (rost * rost);
+            
             Console.WriteLine($"Индекс массы тела равен {IMT}");
+
             Console.WriteLine($"Ваш возраст: {age}");
 
 

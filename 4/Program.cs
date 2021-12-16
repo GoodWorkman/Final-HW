@@ -1,4 +1,5 @@
-﻿//С клавиатуры вводятся числа, пока не будет введен 0. Подсчитать сумму всех нечетных положительных чисел.
+﻿//Anton Manakov
+//С клавиатуры вводятся числа, пока не будет введен 0. Подсчитать сумму всех нечетных положительных чисел.
 using System;
 
 namespace _4
@@ -9,19 +10,22 @@ namespace _4
         {
 
             Console.WriteLine("Введите числа");
-            int n= int.Parse(Console.ReadLine());
-            int sums=0;
+            int n = int.Parse(Console.ReadLine());
+            int sums = 0;
 
             while (n!=0) {
-                if (n>0 && n%2!=0) {
-
-                    sums = sums+ n;
-                    n++;
+                
+                if (n > 0 && n % 2!=0) {
+                    //n = int.Parse(Console.ReadLine());
+                    //sums = sums+ n;
+                    sums += n;
                 }
-                Console.WriteLine(sums);
+                n = int.Parse(Console.ReadLine());
+
 
 
             }
+            Console.WriteLine(sums);
 
             Console.ReadLine();
 
